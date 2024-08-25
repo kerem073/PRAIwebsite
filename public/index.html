@@ -1,24 +1,74 @@
  <!DOCTYPE html>
 <html>
 <head>
-<title>Title of the document</title>
+    <title>PRAI kerem</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-         <a href="./cirkel/">cirkel</a>
-         <a href="./pattern/">pattern</a>
-         <a href="./ellipses/">ellipses</a>
-         <a href="./pattern2/">pattern2</a>
-         <a href="./walkers5/">walkers5</a>
-         <a href="./driehoek1/">driehoek1</a>
-         <a href="./driehoek2/">driehoek2</a>
-         <a href="./ellipses2/">ellipses2</a>
-         <a href="./react_diff/">react_diff</a>
-         <a href="./line_walkers/">line_walkers</a>
-         <a href="./cirkel_walkers/">cirkel_walkers</a>
-         <a href="./zon_regen_lijn/">zon_regen_lijn</a>
-         <a href="./bollen_en_stippen/">bollen_en_stippen</a>
-         <a href="./16_vierkantjes_cirkel/">16_vierkantjes_cirkel</a>
+
+         <h1>kerems weerbericht</h1>
+    <div id="logo">
+             
+
+    </div>
+
+    <img src="kaart.png" id="kaart">
+
+
+    <h3>controls</h3>
+    <div id="controls">
+
+         <div>
+             zonneschijnduur
+             <input id="zonschijnduur" min="0" max="100" value="25" type="range">
+             uv index
+             <input id="uv_index" min="0" max="11" value="25" type="range">
+        </div>
+
+         <div>
+             regen (procent)
+             <input id="regen_procent" min="0" max="100" value="25" type="range">
+             regen (millimeters)
+             <input id="regen_millimeters" min="0" max="100" value="25" type="range">
+        </div>
+
+         <div>
+             windrichting
+             <input id="windrichting" min="0" max="359" value="25" type="range">
+             windkracht
+             <input id="windkracht" min="0" max="100" value="25" type="range">
+        </div>
+
+         <div>
+             vochtigheid
+             <input id="vochtigheid" min="0" max="100" value="25" type="range">
+             luchtkwaliteit
+             <input id="luchtkwaliteit" min="0" max="11" value="25" type="range">
+        </div>
+    </div>
+
+    <h3>Experimenten</h3>
+    <div id="links">
+        <a href="./cirkel/">cirkel</a>
+        <a href="./pattern/">pattern</a>
+        <a href="./ellipses/">ellipses</a>
+        <a href="./pattern2/">pattern2</a>
+        <a href="./walkers5/">walkers5</a>
+        <a href="./driehoek1/">driehoek1</a>
+        <a href="./driehoek2/">driehoek2</a>
+        <a href="./ellipses2/">ellipses2</a>
+        <a href="./react_diff/">react_diff</a>
+        <a href="./line_walkers/">line_walkers</a>
+        <a href="./cirkel_walkers/">cirkel_walkers</a>
+        <a href="./zon_regen_lijn/">zon_regen_lijn</a>
+        <a href="./bollen_en_stippen/">bollen_en_stippen</a>
+        <a href="./16_vierkantjes_cirkel/">16_vierkantjes_cirkel</a>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.min.js"></script>
+     <script src="index.js"></script>
 </body>
 
 </html> 

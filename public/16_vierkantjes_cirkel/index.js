@@ -25,9 +25,9 @@ function draw() {
     let regen_middag = document.getElementById("regen_middag").value;
     let regen_avond = document.getElementById("regen_avond").value;
 
-    let temp_color = '#00ff00';
-    let zon_color = '#ff0000';
-    let regen_color = '#0000ff';
+    let temp_color = '#7d7d7d';
+    let zon_color = '#faca1b';
+    let regen_color = '#1811f2';
 
 
     noStroke();
